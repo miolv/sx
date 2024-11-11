@@ -1,0 +1,50 @@
+.zhuangtai {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 187px;
+    height: 33.66666667px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    background-color: black;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 96.66666667px;
+    /* background-color: blue; */
+    padding: 16.66666667px 36px;
+    background-color: #fff;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+div[class^="picter"] {
+    width: 40px;
+    height: 40px;
+    /* background-color: pink; */
+}
+
+/* footer a {
+    font-size: 43px;
+    opacity: 0;
+} */
+.di {
+    width: 100%;
+    height: 96.66666667px;
+}
+
+footer ul li .wenzi {
+    font-size: 14px;
+    text-align: center;
+    line-height: 35px;
+    height: 35px;
+    /* background-color: #A1A1A1; */
+}

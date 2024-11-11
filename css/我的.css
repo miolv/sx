@@ -1,0 +1,160 @@
+html {
+  overflow-y: scroll;
+}
+.zhuangtai {
+  z-index: 1;
+}
+header {
+  position: relative;
+  width: 100%;
+  height: 288.66666667px;
+  padding-top: 64.66666667px;
+  padding-left: 27px;
+  background: url(../images/我的/back.jpg);
+  background-size: 100% 100%;
+}
+.user {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 63.33333333px;
+}
+.pic {
+  position: relative;
+  width: 63.33333333px;
+  height: 63.33333333px;
+  margin-right: 15.33333333px;
+  border-radius: 31.66666667px;
+  background: url(../images/我的/user.jpg);
+  background-size: 100% 100%;
+}
+.pencil {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 21.66666667px;
+  height: 21.66666667px;
+  background: url(../images/我的/pencil.jpg);
+  background-size: 100% 100%;
+  border: solid 1px #ffffff;
+  border-radius: 10.83333333px;
+}
+.user_right p {
+  color: #fff;
+  font-size: 14px;
+}
+.user_right p:nth-child(1) {
+  font-size: 19.33333333px;
+}
+.record {
+  margin-top: 58.33333333px;
+  padding-left: 14.66666667px;
+  padding-right: 26.66666667px;
+}
+.record ul {
+  display: flex;
+  justify-content: space-between;
+}
+.record ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.record ul li p {
+  font-size: 20px;
+  color: #fff;
+}
+.record ul li p:nth-child(2) {
+  font-size: 13.33333333px;
+  color: #adadad;
+}
+.id {
+  overflow: hidden;
+  position: absolute;
+  top: 241px;
+  left: 27px;
+  width: 336px;
+  height: 116px;
+  border-radius: 17.33333333px;
+}
+.bottom {
+  width: 100%;
+  height: 488px;
+  padding-top: 92.66666667px;
+  padding-bottom: 12px;
+  background-color: #f3f1f1;
+  margin-bottom: 12px;
+}
+.mycheck {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 334.66666667px;
+  height: 119.33333333px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding-top: 9px;
+  padding-bottom: 12.66666667px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+.mycheck_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 11.66666667px;
+}
+.top_left h3 {
+  font-size: 14px;
+}
+.top_right {
+  font-size: 11px;
+  color: #808080;
+}
+.mycheck_content ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 14.66666667px;
+}
+.mycheck_content ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.picture {
+  width: 30px;
+  height: 26.66666667px;
+}
+.mycheck_content p {
+  font-size: 12.33333333px;
+}
+.message {
+  width: 347.33333333px;
+  height: 250px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 11px;
+}
+.message ul li {
+  display: flex;
+  justify-content: space-between;
+  height: 41.66666667px;
+  padding-left: 9px;
+  padding-right: 21px;
+}
+.message ul li p {
+  font-size: 15px;
+  line-height: 41.66666667px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.juxing {
+  width: 225.66666667px;
+  height: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+}
+footer {
+  bottom: -1px;
+}

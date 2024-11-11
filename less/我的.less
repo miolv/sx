@@ -1,0 +1,197 @@
+//out: ../css/
+html {
+    overflow-y: scroll;
+}
+
+.zhuangtai {
+    z-index: 1;
+}
+
+// 上半部分
+header {
+    position: relative;
+    width: 100%;
+    height: (866px/3);
+    padding-top: (194px/3);
+    padding-left: (81px/3);
+    background: url(../images/我的/back.jpg);
+    background-size: 100% 100%;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: (190px/3);
+
+}
+
+.pic {
+    position: relative;
+    width: (190px/3);
+    height: (190px/3);
+    margin-right: (46px/3);
+    border-radius: (190px/6);
+    background: url(../images/我的/user.jpg);
+    background-size: 100% 100%;
+}
+
+.pencil {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: (65px/3);
+    height: (65px/3);
+    background: url(../images/我的/pencil.jpg);
+    background-size: 100% 100%;
+    border: solid 1px #ffffff;
+    border-radius: (65px/6);
+
+}
+
+.user_right p {
+    color: #fff;
+    font-size: 14px;
+}
+
+.user_right p:nth-child(1) {
+    font-size: (58px/3);
+}
+
+// record
+.record {
+    margin-top: (175px/3);
+    padding-left: (44px/3);
+    padding-right: (80px/3);
+}
+
+.record ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.record ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.record ul li p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.record ul li p:nth-child(2) {
+    font-size: (40px/3);
+    color: #adadad;
+}
+
+.id {
+    overflow: hidden;
+    position: absolute;
+    top: 241px;
+    left: (81px/3);
+    width: (1008px/3);
+    height: (348px/3);
+    border-radius: (52px/3);
+    // background-color: purple;
+}
+
+// 下半部分
+.bottom {
+    width: 100%;
+    height: (1464px/3);
+    padding-top: (278px/3);
+    padding-bottom: (36px/3);
+    background-color: #f3f1f1;
+    margin-bottom: 12px;
+}
+
+.mycheck {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: (1004px/3);
+    height: (358px/3);
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding-top: (27px/3);
+    padding-bottom: (38px/3);
+    background-color: #fff;
+    border-radius: (45px/3)
+}
+
+.mycheck_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 (35px/3);
+}
+
+.top_left h3 {
+    font-size: 14px;
+}
+
+.top_right {
+    font-size: 11px;
+    color: #808080;
+}
+
+.mycheck_content ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 (44px/3);
+}
+
+.mycheck_content ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture {
+    width: (90px/3);
+    height: (80px/3);
+    // background-color: green;
+}
+
+.mycheck_content p {
+    font-size: (37px/3);
+}
+
+.message {
+    width: (1042px/3);
+    height: (750px/3);
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 11px;
+}
+
+.message ul li {
+    display: flex;
+    justify-content: space-between;
+    height: (750px/18);
+    padding-left: 9px;
+    padding-right: (63px/3);
+}
+
+.message ul li p {
+    font-size: 15px;
+    line-height: (750px/18);
+    color: rgba(0, 0, 0, 0.7);
+
+}
+
+
+.juxing {
+    width: (677px/3);
+    height: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+}
+
+footer {
+    bottom: -1px;
+}

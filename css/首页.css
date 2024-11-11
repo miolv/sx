@@ -1,0 +1,127 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+  padding: 6.66666667px 20.83333333px;
+  margin-top: 40px;
+}
+.header_left,
+.header_right {
+  width: 20.66666667px;
+  height: 20.66666667px;
+}
+.search {
+  width: 272px;
+  height: 30.66666667px;
+  background-color: #a7a5a5;
+  border-radius: 15.33333333px;
+  opacity: 0.3;
+}
+.lunbotu {
+  height: 189px;
+  background: url(../images/首页/back.jpg) no-repeat;
+  background-size: 100% 100%;
+  animation-name: lunbo;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.lunbotu:hover {
+  animation-play-state: paused;
+}
+@keyframes lunbo {
+  0% {
+    background: url(../images/首页/back.jpg) no-repeat;
+    background-size: 100% 100%;
+  }
+  50% {
+    background: url(../images/首页/back_2.jpg) no-repeat;
+    background-size: 100% 100%;
+  }
+  75% {
+    background: url(../images/首页/back_3.jpg) no-repeat;
+    background-size: 100% 100%;
+  }
+  100% {
+    background: url(../images/首页/back.jpg) no-repeat;
+    background-size: 100% 100%;
+  }
+}
+.service {
+  width: 100%;
+  height: 45px;
+  padding: 9px 21px 9px 14px;
+  background-color: #fbfbfb;
+}
+.service ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.service ul li {
+  display: flex;
+  align-items: center;
+}
+.service ul li h5 {
+  width: 18.33333333px;
+  height: 18.33333333px;
+}
+.service ul li p {
+  padding-top: 3px;
+  margin-left: 3px;
+  font-size: 10px;
+}
+nav {
+  height: 94.66666667px;
+  padding: 21.33333333px 20px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li .photo {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 8px;
+  background-color: aqua;
+}
+nav ul li p {
+  font-family: SimHei;
+}
+.new {
+  overflow-x: scroll;
+}
+.new h3 {
+  height: 63.33333333px;
+  line-height: 63.33333333px;
+}
+.new ul {
+  width: 500px;
+  height: 266.66666667px;
+}
+.new ul li {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 166.66666667px;
+  height: 264.66666667px;
+}
+.new ul li .picture {
+  width: 100.666667px;
+  height: 205.66666667px;
+  background-color: pink;
+}
+.new ul li .bottom {
+  height: 53.33333333px;
+}
+footer {
+  bottom: -3px;
+}

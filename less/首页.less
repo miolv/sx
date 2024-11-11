@@ -1,0 +1,170 @@
+//out: ../css/
+// header
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: (132px/3);
+    padding: (20px/3) (62.5px/3);
+    margin-top: (120px/3);
+}
+
+.header_left,
+.header_right {
+    width: (62px/3);
+    height: (62px/3);
+    // background-color: pink;
+}
+
+.search {
+    width: (816px/3);
+    height: (92px/3);
+    background-color: #a7a5a5;
+    border-radius: (46px/3);
+    opacity: 0.3;
+
+}
+
+// 轮播图
+.lunbotu {
+    height: (567px/3);
+    background: url(../images/首页/back.jpg) no-repeat;
+    background-size: 100% 100%;
+    // animation: lunbo 6s linear infinite;
+    animation-name: lunbo;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.lunbotu:hover {
+    animation-play-state: paused;
+}
+
+@keyframes lunbo {
+    0% {
+        background: url(../images/首页/back.jpg) no-repeat;
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url(../images/首页/back_2.jpg) no-repeat;
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url(../images/首页/back_3.jpg) no-repeat;
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url(../images/首页/back.jpg) no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+
+
+// service
+.service {
+    width: 100%;
+    height: (135px/3);
+    padding: (27px/3) (42px/2) (27px/3) (42px/3);
+    background-color: #fbfbfb;
+}
+
+.service ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service ul li {
+    display: flex;
+    align-items: center;
+}
+
+.service ul li h5 {
+    width: (55px/3);
+    height: (55px/3);
+
+}
+
+.service ul li p {
+    padding-top: 3px;
+    margin-left: 3px;
+    font-size: (30px/3);
+}
+
+// nav
+nav {
+    height: (284px/3);
+    padding: (64px/3) (60px/3);
+    // background-color: yellowgreen;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li .photo {
+    width: (96px/3);
+    height: (96px/3);
+    margin-bottom: (24px/3);
+    background-color: aqua;
+}
+
+nav ul li p {
+    font-family: SimHei;
+    // font-weight: 550;
+}
+
+// 新品
+.new {
+    overflow-x: scroll;
+}
+
+.new h3 {
+    height: (190px/3);
+    line-height: (190px/3);
+}
+
+.new ul {
+    width: (1500px/3);
+    height: (800px/3);
+
+}
+
+.new ul li {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    width: (500px/3);
+    height: (794px/3);
+    // margin-right: ;
+    // background-color: aquamarine;
+}
+
+.new ul li .picture {
+    width: 100.666667px;
+    height: (617px/3);
+    background-color: pink;
+}
+
+.new ul li .bottom {
+    height: (160px/3);
+}
+
+footer {
+    bottom: -3px;
+}
